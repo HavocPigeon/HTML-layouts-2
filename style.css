@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+
+.maincontainer {
+    margin: 0 auto;
+}
+.mainnavbar {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+}
+.emptyleft {
+    width: 250px;
+    height: 100%;
+}
+img {
+    width: 230px;
+    height: auto;
+    margin-left: 10px;
+}
+.emptyright {
+    width: 250px;
+    height: 100%;
+}
+.hugebody {
+    align-content: flex-end;
+    display: flex;
+    margin-top: 3px;
+}
+.leftcolumnmain * + *{
+    margin-top: 3px;
+    flex: 1;
+    /* background-color: blue */
+}
+.profilepic {
+    min-height: 100px;
+    width: 250px;
+    /* background-color: purple; */
+}
+.profilename, .bio, .editprofile {
+    width: 100%;
+    min-height: 10px;
+    /* background-color: yellow; */
+    margin-bottom: 10px;
+}
+.rightcolumnmain {
+    flex: 1;
+    /* background-color: red; */
+    margin-left: 10px;
+}
+.header {
+    display: flex;
+}
+.head1, .head2, .head3, .head4, .head5 {
+    /* background-color: green; */
+    min-height: 50px;
+    flex: 1;
+    margin-right: 7px;
+    padding-top: 17px;
+    text-align: center;
+}
+.maincolumns {
+    display: flex;
+    height: 100%;
+}
+.leftside, .rightside {
+    flex: 1;
+    margin-right: 7px;
+    /* background-color: gray; */
+    min-height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+.leftdivcolumns * + * {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+.div2l, .div3l, .div4l {
+    flex: 1;
+    min-height: 100px;
+    /* background-color: brown; */
+    width: 100%;
+    border-color: black;
+    border: solid;
+}
+.div1l, .div1r {
+    margin-top: 10px;
+    flex: 1;
+    min-height: 10px;
+    /* background-color: brown; */
+    width: 100%;
+    margin-bottom: 8px;
+}
+.rightdivcolumns * + * {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+.div2r, .div3r, .div4r {
+    flex: 1;
+    min-height: 100px;
+    /* background-color: brown; */
+    width: 100%;  
+    border-color: black;
+    border: solid;
+}
+.profilename {
+    margin-top: 15px;
+    font-size: 28px;
+    padding-left: 12px;
+}
+.bio, .editprofile {
+    font-size: 18px;
+}
+button {
+    padding: 10px;
+    width: 225px;
+    margin-left: 12px;
+    font-size: 16px;
+}
+.div1r {
+    text-align: right;
+}
+.nav1, .nav2, .nav3, .nav4, .nav5 {
+    margin-right: 7px;
+    /* background-color: gray; */
+    min-width: 10px;
+    margin-left: 5px;
+}
+#img1 {
+    width: 37px;
+    height: auto;
+    padding-top: 5px;
+}
+.emptyspace {
+    width: 250px;
+    /* background-color: blue; */
+}
+input {
+    margin-left: 7px;
+    margin-top: 12px;
+    width: 300px;
+}
+.nav2, .nav3, .nav4, .nav5 {
+    padding-top: 13px;
+    color: white;
+}
